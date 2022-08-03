@@ -14,7 +14,7 @@ Installation
 0. Clone the repo and drop the `jekylltoghost.rb` file into your Jekyll site's `_plugins` directory
 1. Run `jekyll build`.
 2. There should now be a `ghost_export.json` file in the `_site` directory.
-3. Follow the Ghost guide [here](https://docs.ghost.org/api/migration/#converting-html) to convert the HTML block into **Mobiledoc** (this is what the new Ghost blog accepts).
+3. Follow the Ghost guide [here](https://ghost.org/docs/migration/content/) to convert the HTML block into **Mobiledoc** (this is what the new Ghost blog accepts).
     * Core command: `migrate json html /path/to/your/import.json` -> this line will generate a new JSON file with Mobiledoc entries added.
 4. Download the JSON file, (optional) edit the `users` section, and import it through the Ghost Lab tab.
 
